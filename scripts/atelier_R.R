@@ -120,3 +120,4 @@ surveys %>%
   summarize(count=n()) %>% 
   ggplot(aes(x=date, y=count, color=sex))+geom_line()
 
+s
